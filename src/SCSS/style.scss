@@ -393,3 +393,44 @@
         }
     }
 }
+
+.Error {
+    padding: 50px 0;
+
+    .Message {
+        margin: auto;
+
+        h1 {
+            font-size: 5rem;
+            font-family: "Playwrite NG Modern", cursive;
+        }
+
+        p {
+            margin: 30px 0;
+        }
+
+        .Quick-Button {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            button {
+                border: none;
+                background-color: $PrimeColor;
+                color: #fff;
+                padding: 5px 15px;
+            }
+        }
+    }
+
+    .Question {
+        margin: auto;
+        text-align: center;
+
+        h1 {
+            font-size: 17rem;
+            color: transparent;
+            -webkit-text-stroke: 1px $PrimeColor;
+        }
+    }
+}

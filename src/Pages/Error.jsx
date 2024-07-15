@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Component/Header.jsx'
 import Footer from '../Component/Footer.jsx'
+import { Link } from "react-router-dom";
 
 
 function Error() {
@@ -8,8 +9,20 @@ function Error() {
         <>
             <Header />
 
-            <div className="Error">
-                Error
+            <div className="Error Main-Margin /// container">
+                <div className="row">
+                    <div className="Message col-lg-6">
+                        <h1>Something's wrong here . . .</h1>
+                        <p>We can't find the page you're looking for. Check out our Help Center or head back to Home</p>
+                        <div className="Quick-Button">
+                            <button>Help Center</button>
+                            <button><Link to="/">Home</Link></button>
+                        </div>
+                    </div>
+                    <div className="Question col-lg-6">
+                        <h1>? ? ?</h1>
+                    </div>
+                </div>
             </div>
 
             <Footer />
