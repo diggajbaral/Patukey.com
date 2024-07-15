@@ -1,0 +1,85 @@
+footer {
+    background-color: $PrePrimeColor;
+    padding: 50px 0px;
+
+    .Footer-Topic {
+
+        position: relative;
+
+        .wrapper {
+            text-align: center;
+            background-color: $PrePrimeColor;
+            width: fit-content;
+            margin: 0px auto;
+            position: relative;
+            z-index: 2;
+            padding: 0px 40px;
+        }
+
+        &:after {
+            content: "";
+            height: 1px;
+            width: 100%;
+            background-color: #000;
+            position: absolute;
+            top: 50%;
+            left: 0px;
+            z-index: 1;
+        }
+    }
+
+    .Middle-Footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .QuickLinks {
+            text-align: center;
+        }
+
+        .SocialLinks {
+            display: flex;
+            gap: 70px;
+
+            i {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .NewLetter {
+        text-align: center;
+        margin-top: 15px;
+
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            input {
+                background-color: $PrePrimeColor;
+                border: 0.5px solid $PrimeColor;
+                height: 40px;
+                width: 500px;
+                outline: none;
+                padding: 0 15px;
+            }
+
+            button {
+                border: none;
+                background-color: $PrimeColor;
+                color: #fff;
+                padding: 8px 15px;
+            }
+        }
+    }
+
+    .CopyRight {
+        p {
+            font-family: "Playwrite NG Modern", cursive;
+            margin-top: 30px;
+            text-align: center;
+        }
+    }
+}
