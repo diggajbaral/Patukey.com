@@ -14,6 +14,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import LogIn from './Pages/LogIn.jsx'
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
     path: "/*",
     element: <Error />,
   },
+  {
+    path: "/LogIn",
+    element: <LogIn />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

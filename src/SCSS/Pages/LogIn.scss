@@ -1,0 +1,61 @@
+body.dark-background {
+    background-color: $PrePrimeColor !important;
+}
+
+.LogIn {
+    padding: 50px 0;
+
+    .Text {
+        margin: auto;
+        text-align: center;
+        border-right: 0.5px solid #000;
+
+        h1 {
+            font-size: 7rem;
+            font-family: "Playwrite NG Modern", cursive;
+            font-style: oblique;
+        }
+
+        p {
+            margin-top: 50px;
+        }
+    }
+
+    .LogIn-Form {
+        margin: auto;
+        text-align: center;
+
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+
+            input {
+                background-color: $PrePrimeColor;
+                border: 0.5px solid $PrimeColor;
+                outline: none;
+                border-radius: 7px;
+                padding: 5px 10px;
+                width: 300px;
+                height: 40px;
+            }
+
+            .Buttons {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                button {
+                    border: none;
+                    background-color: $PrimeColor;
+                    color: #fff;
+                    padding: 5px 10px;
+                    border-radius: 7px;
+                }
+            }
+        }
+    }
+}

@@ -12,9 +12,9 @@ function Footer() {
                 </div>
                 <div className="Middle-Footer Main-Margin">
                     <div className="QuickLinks">
-                        <a href="#"><p>MORE INFO</p></a>
-                        <a href="#"><p>SELL YOUR PRODUCTS</p></a>
-                        <a href="#"><p>TERM & CONDTION</p></a>
+                        <p>MORE INFO</p>
+                        <p>SELL YOUR PRODUCTS</p>
+                        <p>TERM & CONDITION</p>
                     </div>
                     <div className="SocialLinks">
                         <i class="bi bi-twitter"></i>
@@ -22,9 +22,9 @@ function Footer() {
                         <i class="bi bi-whatsapp"></i>
                     </div>
                     <div className="QuickLinks">
-                        <a href="#"><p>SHIPPING INFO</p></a>
-                        <a href="#"><p>RETURNS / EXCHANGES</p></a>
-                        <a href="#"><p>CONATCT</p></a>
+                        <p>SHIPPING INFO</p>
+                        <p>RETURNS / EXCHANGES</p>
+                        <p>CONATCT</p>
                     </div>
                 </div>
                 <div className="Topic">

@@ -23,12 +23,14 @@ function Header() {
                     </div>
                     <div className="Love">
                         <i class="bi bi-heart"></i>
+                        <span>08</span>
                     </div>
                     <div className="Cart">
                         <i class="bi bi-bag"></i>
+                        <span>03</span>
                     </div>
                     <div className="Login">
-                        <button>LOGIN</button>
+                        <Link to="/LogIn">LOGIN</Link>
                     </div>
                 </div>
             </div>

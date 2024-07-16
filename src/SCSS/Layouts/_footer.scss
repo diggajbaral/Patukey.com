@@ -38,6 +38,7 @@ footer {
 
             p {
                 margin-bottom: 5px !important;
+                cursor: pointer;
 
                 &:last-child {
                     margin-bottom: 0px;
@@ -52,6 +53,7 @@ footer {
 
             i {
                 font-size: 2rem;
+                cursor: pointer;
             }
         }
     }

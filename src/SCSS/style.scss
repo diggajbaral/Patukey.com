@@ -1,7 +1,11 @@
 @import 'Base/common';
 @import 'Base/variable';
+
 @import 'Layouts/header';
 @import 'Layouts/footer';
+
+@import 'Pages/LogIn';
+
 
 .Banner {
     figure {
@@ -25,7 +29,11 @@
 
             p {
                 &:last-child {
-                    margin-top: 10px;
+                    cursor: pointer;
+                    width: fit-content;
+                    margin: 10px auto;
+                    font-family: "Playwrite NG Modern", cursive;
+
                 }
             }
         }
@@ -92,6 +100,7 @@
     max-width: 18em;
     object-fit: cover;
     position: relative;
+    cursor: pointer;
 
     figure {
         img {
@@ -363,6 +372,7 @@
         padding: 10px;
         border: 1px solid #f5f5f5;
         border-radius: 4px;
+        cursor: pointer;
 
         img {
             max-width: 100%;
