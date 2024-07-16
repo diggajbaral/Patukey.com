@@ -35,6 +35,15 @@ footer {
 
         .QuickLinks {
             text-align: center;
+
+            p {
+                margin-bottom: 5px !important;
+
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+            }
+
         }
 
         .SocialLinks {
