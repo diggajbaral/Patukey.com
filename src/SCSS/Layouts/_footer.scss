@@ -87,10 +87,19 @@ footer {
     }
 
     .CopyRight {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
         p {
             font-family: "Playwrite NG Modern", cursive;
             margin-top: 30px;
-            text-align: center;
+
+            a {
+                font-family: "Playwrite NG Modern", cursive;
+                font-style: oblique;
+            }
         }
     }
 }

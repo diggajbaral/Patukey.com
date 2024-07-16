@@ -38,6 +38,7 @@ function Footer() {
                 </div>
                 <div className="CopyRight">
                     <p>© 2024 Patukey.com. All rights reserved</p>
+                    <p><a href="linkedin.com/in/diggaj/">Creator ~ Diggaj Baral</a></p>
                 </div>
             </div>
         </footer>

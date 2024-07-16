@@ -3,9 +3,9 @@ import Header from '../Component/Header.jsx'
 import Footer from '../Component/Footer.jsx'
 function LogIn() {
     useEffect(() => {
-        document.body.classList.add('dark-background');
+        document.body.classList.add('Change-Background');
         return () => {
-            document.body.classList.remove('dark-background');
+            document.body.classList.remove('Change-Background');
         };
     }, []);
     return (
@@ -21,6 +21,7 @@ function LogIn() {
                         <form action="">
                             <input type="email" name="" id="" placeholder='Email or Phone number' />
                             <input type="password" name="" id="" placeholder='Password' />
+                            <p>Forget Password</p>
                             <div className="Buttons">
                                 <button>LOGIN</button>
                                 <button>SIGNUP</button>

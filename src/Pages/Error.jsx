@@ -13,10 +13,10 @@ function Error() {
                 <div className="row">
                     <div className="Message col-lg-6">
                         <h1>Something's wrong here . . .</h1>
-                        <p>We can't find the page you're looking for. Check out our Help Center or head back to Home</p>
+                        <p>We can't find the page you're looking for. Check out Log In or head back to Home</p>
                         <div className="Quick-Button">
-                            <button>Help Center</button>
-                            <button><Link to="/">Home</Link></button>
+                            <button><Link to="/LogIn">LOGIN</Link></button>
+                            <button><Link to="/">HOME</Link></button>
                         </div>
                     </div>
                     <div className="Question col-lg-6">
