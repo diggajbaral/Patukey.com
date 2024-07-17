@@ -60,6 +60,54 @@ body.Change-Background {
                     border-radius: 4px;
                 }
             }
+
+            #exampleModal {
+                .btn-close {
+                    display: none;
+                }
+
+                .modal-header {
+                    h1 {
+                        font-family: "Playwrite NG Modern", cursive;
+                        font-style: oblique;
+                    }
+
+                }
+
+                .Modal-Form {
+                    form {
+                        input {
+                            width: 100% !important;
+                            border: none;
+                        }
+
+                        .Form-Name {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            width: 100%;
+                        }
+
+                        .Age-Gender {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            width: 100%;
+                            #gender {
+                                background-color: $PrePrimeColor;
+                                outline: none;
+                                border: none;
+                                height: 40px;
+                                border-radius: 10px;
+                                padding: 0 5px;
+                            }
+                        }
+
+                    }
+                }
+            }
         }
     }
 }
