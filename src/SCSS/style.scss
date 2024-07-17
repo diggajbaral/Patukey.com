@@ -165,11 +165,14 @@
                 position: absolute;
                 text-align: center;
                 left: 50px;
-                bottom: 30px;
+                bottom: 180px;
 
                 h3 {
                     font-family: "Playwrite NG Modern", cursive;
+                }
 
+                p {
+                    margin-top: 10px;
                 }
 
                 button {
@@ -177,6 +180,12 @@
                     border: none;
                     background-color: #fff;
                     padding: 7px 20px;
+                    transition: all 0.3s linear;
+
+                    &:hover {
+                        background-color: $PrimeColor;
+                        color: #fff;
+                    }
                 }
             }
         }

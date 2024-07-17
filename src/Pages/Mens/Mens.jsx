@@ -2,8 +2,8 @@ import React from 'react'
 import Header from '../../Component/Header'
 import Footer from '../../Component/Footer'
 
-import MensCategories from './MensCategories.jsx'
-import MensProduct from './MensProduct.jsx'
+import MensProduct from './MensProduct'
+import MensBanner from './MensBanner'
 
 
 function Mens() {
@@ -15,16 +15,9 @@ function Mens() {
                 <p>Attention, gentlemen! Enjoy 35% off our exclusive men's collection. From sleek suits to casual wear, enhance your style now!</p>
             </div>
 
-            <MensCategories />
-
-            <div className="Topic">
-                <p>Mens Trending Styles</p>
-            </div>
+            <MensBanner />
 
             <MensProduct />
-            <MensProduct />
-            <MensProduct />
-
 
             <Footer />
         </>

@@ -3,59 +3,8 @@
     background-color: $PrePrimeColor;
     padding: 10px 5px;
     border-radius: 7px;
-    margin-top: 20px;
+    margin-top: 10x;
 }
-
-.MensCategories {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 15px;
-
-    .CategoriesList {
-        figure {
-            max-width: 18em;
-            position: relative;
-
-            &::before {
-                content: "";
-                height: 100%;
-                width: 100%;
-                background: linear-gradient(to top, #000, #00000000);
-                position: absolute;
-                top: 0px;
-                left: 0px;
-            }
-
-            img {
-                max-width: 100%;
-                object-fit: cover;
-            }
-
-            figcaption {
-                position: absolute;
-                text-align: center;
-                bottom: 20px;
-                left: 0px;
-                right: 0px;
-
-                p {
-                    font-size: 1.3rem;
-                    color: #fff;
-                    margin-bottom: 10px;
-                }
-
-                button {
-                    border: none;
-                    background-color: #fff;
-                    padding: 10px 20px;
-                }
-            }
-        }
-    }
-}
-
 
 .MensProduct {
     .container {
@@ -118,6 +67,14 @@
                 display: block;
                 color: red;
             }
+        }
+    }
+}
+
+.MensBanner {
+    .row {
+        img {
+            width: 100%;
         }
     }
 }

@@ -4,8 +4,8 @@ import Product01 from '../../assets/Tranding Style/Trending_01.avif'
 import Product02 from '../../assets/Tranding Style/Trending_02.avif'
 import Product03 from '../../assets/Tranding Style/Trending_03.avif'
 import Product04 from '../../assets/Tranding Style/Trending_04.avif'
-import ProductBanner01 from '../../assets/Tranding Style/TrendingBanner_01.avif'
-import ProductBanner02 from '../../assets/Tranding Style/TrendingBanner_02.avif'
+import ProductBanner01 from '../../assets/Tranding Style/TrendingBanner_01.jpg'
+import ProductBanner02 from '../../assets/Tranding Style/TrendingBanner_02.jpg'
 
 
 function TrendingStyle() {
@@ -62,21 +62,21 @@ function TrendingStyle() {
                     <div className="col-lg-6">
                         <figure>
                             <img src={ProductBanner01} alt="" />
-                            {/* <figcaption>
+                            <figcaption>
                                 <h3>Print Paradise</h3>
                                 <p>Bedazzling Styls To Rock Festivities</p>
                                 <button>Shop Now</button>
-                            </figcaption> */}
+                            </figcaption>
                         </figure>
                     </div>
                     <div className="col-lg-6">
                         <figure>
                             <img src={ProductBanner02} alt="" />
-                            {/* <figcaption>
-                                <h3>Print Paradise</h3>
+                            <figcaption>
+                                <h3>Ram Navami Special</h3>
                                 <p>Bedazzling Styls To Rock Festivities</p>
                                 <button>Shop Now</button>
-                            </figcaption> */}
+                            </figcaption>
                         </figure>
                     </div>
                 </div>
