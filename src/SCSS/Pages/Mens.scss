@@ -1,0 +1,123 @@
+.Offer {
+    text-align: center;
+    background-color: $PrePrimeColor;
+    padding: 10px 5px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+.MensCategories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .CategoriesList {
+        figure {
+            max-width: 18em;
+            position: relative;
+
+            &::before {
+                content: "";
+                height: 100%;
+                width: 100%;
+                background: linear-gradient(to top, #000, #00000000);
+                position: absolute;
+                top: 0px;
+                left: 0px;
+            }
+
+            img {
+                max-width: 100%;
+                object-fit: cover;
+            }
+
+            figcaption {
+                position: absolute;
+                text-align: center;
+                bottom: 20px;
+                left: 0px;
+                right: 0px;
+
+                p {
+                    font-size: 1.3rem;
+                    color: #fff;
+                    margin-bottom: 10px;
+                }
+
+                button {
+                    border: none;
+                    background-color: #fff;
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
+}
+
+
+.MensProduct {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+.MensCard {
+    max-width: 18em;
+    object-fit: cover;
+    position: relative;
+    cursor: pointer;
+
+    figure {
+        img {
+            max-width: 100%;
+            height: 400px;
+            object-fit: cover;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+
+    figcaption {
+        padding: 10px 0;
+
+        p {
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            white-space: pre-wrap;
+        }
+    }
+
+    button {
+        position: absolute;
+        top: 12px;
+        right: 20px;
+        border: none;
+        background-color: transparent;
+        font-size: 1.3rem;
+
+        .Liked {
+            display: none;
+        }
+
+        &:hover {
+            .UnLike {
+                display: none;
+            }
+
+            .Liked {
+                display: block;
+                color: red;
+            }
+        }
+    }
+}

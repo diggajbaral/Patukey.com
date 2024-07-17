@@ -36,11 +36,11 @@ function LogIn() {
                                             <div class="modal-body Modal-Form">
                                                 <form action="">
                                                     <div className="Form-Name">
-                                                        <input type="text" name="" id="" placeholder='First Name' />
-                                                        <input type="text" name="" id="" placeholder='Last Name' />
+                                                        <input type="text" name="" id="" placeholder='First Name' required/>
+                                                        <input type="text" name="" id="" placeholder='Last Name' required/>
                                                     </div>
-                                                    <input type="text" name="" id="" placeholder='Email or Phone number' />
-                                                    <input type="password" name="" id="" placeholder='Password' />
+                                                    <input type="text" name="" id="" placeholder='Email or Phone number' required/>
+                                                    <input type="password" name="" id="" placeholder='Password' required/>
                                                     <div className="Age-Gender">
                                                         <input type="date" name="" id="" />
                                                         <select id="gender" name="gender" required>
@@ -55,7 +55,7 @@ function LogIn() {
                                             </div>
                                             <div class="modal-footer">
                                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">SIGN UP</button>
+                                                <button type="submit" class="btn btn-primary">SIGN UP</button>
                                             </div>
                                         </div>
                                     </div>

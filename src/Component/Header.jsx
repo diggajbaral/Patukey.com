@@ -10,7 +10,7 @@ function Header() {
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">Mens</a></li>
+                        <li><Link to="/Mens">Mens</Link></li>
                         <li><a href="#">Saree</a></li>
                         <li><a href="#">Kurtha</a></li>
                         <li><a href="#">Bridal <i class="bi bi-chevron-compact-down"></i></a></li>

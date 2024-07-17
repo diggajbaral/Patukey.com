@@ -14,7 +14,9 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 import LogIn from './Pages/LogIn.jsx'
+import Mens from './Pages/Mens/Mens.jsx'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/LogIn",
     element: <LogIn />,
+  },
+  {
+    path: "/Mens",
+    element: <Mens />,
   }
 ]);
 

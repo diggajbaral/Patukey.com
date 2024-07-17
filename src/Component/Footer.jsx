@@ -38,7 +38,7 @@ function Footer() {
                 </div>
                 <div className="CopyRight">
                     <p>© 2024 Patukey.com. All rights reserved</p>
-                    <p><a href="https://www.linkedin.com/in/diggaj/">Creator ~ Diggaj Baral</a></p>
+                    <p><a href="https://www.linkedin.com/in/diggaj/">Creator ~ Diggaj Baral <i class="bi bi-arrow-right-short"></i></a></p>
                 </div>
             </div>
         </footer>
