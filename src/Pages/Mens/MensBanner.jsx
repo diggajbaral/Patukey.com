@@ -9,10 +9,24 @@ function MensBanner() {
         <div className="MensBanner Main-Margin /// container">
             <div className="row">
                 <div className="col-lg-6">
-                    <img src={Banner1} alt="" />
+                    <figure>
+                        <img src={Banner1} alt="" />
+                        <figcaption>
+                            <h3>Vallentine</h3>
+                            <p>Bedazzling Styls To Rock Festivities</p>
+                            <button>Shop Now</button>
+                        </figcaption>
+                    </figure>
                 </div>
                 <div className="col-lg-6">
-                    <img src={Banner2} alt="" />
+                    <figure>
+                        <img src={Banner2} alt="" />
+                        <figcaption>
+                            <h3>Dashain Special</h3>
+                            <p>Bedazzling Styls To Rock Festivities</p>
+                            <button>Shop Now</button>
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
         </div>

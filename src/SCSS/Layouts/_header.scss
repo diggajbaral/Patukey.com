@@ -14,8 +14,13 @@ header {
                     display: inline-block;
                     margin-right: 50px;
 
+                    &:nth-child(4) {
+                        color: #c8c8c8;
+                    }
+
                     &:last-child {
                         margin-right: 0px;
+                        color: #c8c8c8;
                     }
                 }
             }

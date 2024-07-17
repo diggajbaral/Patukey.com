@@ -13,8 +13,8 @@ function Header() {
                         <li><Link to="/Mens">Mens</Link></li>
                         <li><a href="#">Saree</a></li>
                         <li><a href="#">Kurtha</a></li>
-                        <li><a href="#">Bridal <i class="bi bi-chevron-compact-down"></i></a></li>
-                        <li><a href="#">Festival <i class="bi bi-chevron-compact-down"></i></a></li>
+                        <li><a href="">Bridal <i class="bi bi-chevron-compact-down"></i></a></li>
+                        <li><a href="">Festival <i class="bi bi-chevron-compact-down"></i></a></li>
                     </ul>
                 </nav>
                 <div className="Icons">
