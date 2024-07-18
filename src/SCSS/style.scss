@@ -9,6 +9,8 @@
 
 
 .Banner {
+
+    // margin-top: 85px;
     figure {
         position: relative;
 
@@ -99,7 +101,7 @@
 
 .PopularCard {
     max-width: 18em;
-    object-fit: cover;
+    // object-fit: cover;
     position: relative;
     cursor: pointer;
 
@@ -451,6 +453,86 @@
             font-size: 17rem;
             color: transparent;
             -webkit-text-stroke: 1px $PrimeColor;
+        }
+    }
+}
+
+@media (max-width : 1300px) {}
+
+@media (max-width : 991px) {
+    .GridSection {
+        .GridText {
+            margin-top: 25px;
+        }
+    }
+}
+
+@media (max-width : 767px) {
+    .PopularCard {
+        max-width: 13em;
+    }
+
+    .CategoriesList {
+        .Categories {
+            figure {
+                width: 15em;
+            }
+        }
+    }
+}
+
+@media (max-width : 480px) {
+    .PopularCard {
+        max-width: 10em;
+
+        figure {
+            img {
+                height: 250px;
+            }
+        }
+    }
+
+    .CategoriesList {
+        .Categories {
+            figure {
+                width: 10em;
+
+                figcaption {
+                    p {
+                        font-size: 1rem;
+                    }
+
+                    button {
+                        padding: 5px 10px;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .ContactRow {
+        figure {
+            figcaption {
+                flex-direction: column;
+                padding: 0 15px;
+                bottom: 50px;
+
+                form {
+                    flex-direction: column;
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width : 380px) {
+    .ContactRow {
+        figure {
+            figcaption {
+                bottom: 30px;
+            }
         }
     }
 }

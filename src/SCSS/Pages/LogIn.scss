@@ -4,6 +4,7 @@ body.Change-Background {
 
 .LogIn {
     padding: 50px 0;
+    margin-top: 85px;
 
     .Text {
         margin: auto;
@@ -95,6 +96,7 @@ body.Change-Background {
                             align-items: center;
                             gap: 10px;
                             width: 100%;
+
                             #gender {
                                 background-color: $PrePrimeColor;
                                 outline: none;
