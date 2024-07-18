@@ -1,6 +1,10 @@
 header {
     padding: 2% 0;
     background-color: #fff;
+    z-index: 99999;
+    position: fixed;
+    top: 0px;
+    width: 100%;
 
     .container {
         display: flex;
@@ -13,21 +17,17 @@ header {
                 li {
                     display: inline-block;
                     margin-right: 50px;
+                }
 
-                    &:nth-child(4) {
-                        color: #c8c8c8;
-                    }
-
-                    &:last-child {
-                        margin-right: 0px;
-                        color: #c8c8c8;
-                    }
+                .LogIn-Nav {
+                    display: none;
                 }
             }
         }
 
         .Icons {
             display: flex;
+            justify-content: center;
             align-items: center;
             gap: 45px;
 
@@ -39,32 +39,14 @@ header {
                 }
             }
 
-            .Love {
-                cursor: pointer;
-
-                span {
-                    position: absolute;
-                    transform: translateX(-7px) translateY(-13px);
-                    font-weight: 500;
-                    color: #fff;
-                    background-color: #AA6437;
-                    padding: 0 3.5px;
-                    border-radius: 50%;
-                }
-            }
-
-            .Cart {
-                cursor: pointer;
-
-                span {
-                    position: absolute;
-                    transform: translateX(-7px) translateY(-13px);
-                    font-weight: 500;
-                    color: #fff;
-                    background-color: #AA6437;
-                    padding: 0 3.5px;
-                    border-radius: 50%;
-                }
+            span {
+                position: absolute;
+                transform: translateX(-7px) translateY(-13px);
+                font-weight: 500;
+                color: #fff;
+                background-color: #AA6437;
+                padding: 0 3.5px;
+                border-radius: 50%;
             }
 
             .Login {
@@ -74,5 +56,115 @@ header {
                 padding: 3px 10px;
             }
         }
+
+        .MenuIcon {
+            display: none;
+
+            i {
+                font-size: 2rem;
+            }
+        }
     }
 }
+
+
+// @media (max-width : 600px) {}
+
+// @media (min-width : 600px) and (max-width : 768px) {}
+
+// @media (min-width : 768px) and (max-width : 1024px) {
+//     header {
+//         .container {
+//             nav {
+//                 display: none;
+
+//             }
+
+//             .Icons {
+//                 .Search-Icon {
+//                     input {
+//                         width: 400px;
+//                     }
+//                 }
+//             }
+
+//             .MenuIcon {
+//                 display: block;
+//             }
+//         }
+//     }
+// }
+
+// @media (min-width : 1025px) and (max-width : 1200px) {
+//     header {
+//         .container {
+//             nav {
+//                 ul {
+//                     li {
+//                         margin-right: 25px;
+
+//                     }
+//                 }
+//             }
+
+//             .Icons {
+//                 gap: 30px;
+//             }
+//         }
+//     }
+// }
+
+// @media (min-width : 1201px) {}
+
+
+#MenuItems.Show-Nav {
+    background-color: #121118;
+    display: block;
+    position: absolute;
+    right: 0px;
+    height: 100vh;
+    top: 100%;
+    padding: 20px;
+    color: whitesmoke;
+    min-width: 300px;
+
+    ul {
+        li {
+            margin-right: 0px;
+            display: block;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+
+@media (max-width : 1200px) {
+    header {
+        position: fixed;
+        width: 100%;
+
+        .container {
+            nav {
+                display: none;
+            }
+
+            .Icons {
+                .Search-Icon {
+                    input {
+                        width: 400px;
+                    }
+                }
+            }
+
+            .MenuIcon {
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width : 991px) {}
+
+@media (max-width : 767px) {}
+
+@media (max-width : 480px) {}

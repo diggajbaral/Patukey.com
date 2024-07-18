@@ -41,6 +41,7 @@ function LogIn() {
                                                     </div>
                                                     <input type="text" name="" id="" placeholder='Email or Phone number' required/>
                                                     <input type="password" name="" id="" placeholder='Password' required/>
+                                                    <input type="password" name="" id="" placeholder='Confirm Password' required/>
                                                     <div className="Age-Gender">
                                                         <input type="date" name="" id="" />
                                                         <select id="gender" name="gender" required>

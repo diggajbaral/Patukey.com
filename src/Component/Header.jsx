@@ -1,22 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
+import Sidenav from './Sidenav';
 
 function Header() {
+    const [isSideNavOpen, setSideNavOpen] = useState(false);
+
+    const toggleSideNav = () => {
+        setSideNavOpen(!isSideNavOpen);
+    };
+
     return (
         <header>
             <div className="container">
                 <div className="Logo">
                     <Link to="/"><p>Patukey</p></Link>
                 </div>
-                <nav>
-                    <ul>
-                        <li><Link to="/Mens">Mens</Link></li>
-                        <li><a href="#">Saree</a></li>
-                        <li><a href="#">Kurtha</a></li>
-                        <li><a href="">Bridal <i class="bi bi-chevron-compact-down"></i></a></li>
-                        <li><a href="">Festival <i class="bi bi-chevron-compact-down"></i></a></li>
-                    </ul>
-                </nav>
+                <Sidenav isOpen={isSideNavOpen} onClose={toggleSideNav} />
                 <div className="Icons">
                     <div className="Search-Icon">
                         <input type="search" name="" id="" placeholder='Search . . .' />
@@ -32,6 +31,9 @@ function Header() {
                     <div className="Login">
                         <Link to="/LogIn">LOGIN</Link>
                     </div>
+                </div>
+                <div className="MenuIcon" onClick={toggleSideNav} id="Side-Nav-Open">
+                    <i class="bi bi-list"></i>
                 </div>
             </div>
         </header>
