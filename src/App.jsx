@@ -35,7 +35,7 @@ function App() {
       </div>
       <CustomerStories />
       <AboutPatuki />
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
