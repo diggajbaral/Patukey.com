@@ -68,10 +68,6 @@ header {
 }
 
 
-// @media (max-width : 600px) {}
-
-// @media (min-width : 600px) and (max-width : 768px) {}
-
 // @media (min-width : 768px) and (max-width : 1024px) {
 //     header {
 //         .container {
@@ -133,12 +129,15 @@ header {
             margin-right: 0px;
             display: block;
             margin-bottom: 50px;
+            // background-color: #c8c8c8;
+            // border-radius: 7px;
+            // padding: 7px 3px;
         }
     }
 }
 
 
-@media (max-width : 1200px) {
+@media (max-width : 1300px) {
     header {
         position: fixed;
         width: 100%;
@@ -163,8 +162,45 @@ header {
     }
 }
 
-@media (max-width : 991px) {}
+@media (max-width : 991px) {
+    header {
+        .container {
+            .Icons {
+                .Login {
+                    display: none;
+                }
+            }
+        }
+    }
+}
 
-@media (max-width : 767px) {}
+@media (max-width : 767px) {
+    header {
+        .container {
+            .Icons {
+                .Search-Icon {
+                    input {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
 
-@media (max-width : 480px) {}
+@media (max-width : 480px) {
+    header {
+        .container {
+            .Logo {
+                display: none;
+            }
+
+            .Icons {
+                gap: 30px;
+            }
+            #MenuItems.Show-Nav {
+                width: 100%;
+            }
+        }
+    }
+}
