@@ -113,3 +113,30 @@ body.Change-Background {
         }
     }
 }
+
+@media (max-width : 1300px) {}
+
+@media (max-width : 991px) {
+    .LogIn {
+        .Text {
+            border-right: 0px;
+        }
+    }
+    .LogIn-Form {
+        form {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media (max-width : 767px) {
+    .LogIn {
+        .Text {
+            h1 {
+                font-size: 5rem;
+            }
+        }
+    }
+}
+
+@media (max-width : 480px) {}
