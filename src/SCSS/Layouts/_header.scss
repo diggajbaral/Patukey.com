@@ -1,10 +1,11 @@
 header {
     padding: 2% 0;
     background-color: #fff;
-    z-index: 99999;
-    position: fixed;
+    position: relative;
+    // z-index: 99999;
+    // position: fixed;
     top: 0px;
-    width: 100%;
+    // width: 100%;
 
     .container {
         display: flex;
@@ -67,52 +68,6 @@ header {
     }
 }
 
-
-// @media (min-width : 768px) and (max-width : 1024px) {
-//     header {
-//         .container {
-//             nav {
-//                 display: none;
-
-//             }
-
-//             .Icons {
-//                 .Search-Icon {
-//                     input {
-//                         width: 400px;
-//                     }
-//                 }
-//             }
-
-//             .MenuIcon {
-//                 display: block;
-//             }
-//         }
-//     }
-// }
-
-// @media (min-width : 1025px) and (max-width : 1200px) {
-//     header {
-//         .container {
-//             nav {
-//                 ul {
-//                     li {
-//                         margin-right: 25px;
-
-//                     }
-//                 }
-//             }
-
-//             .Icons {
-//                 gap: 30px;
-//             }
-//         }
-//     }
-// }
-
-// @media (min-width : 1201px) {}
-
-
 #MenuItems.Show-Nav {
     background-color: #121118;
     display: block;
@@ -123,6 +78,7 @@ header {
     padding: 20px;
     color: whitesmoke;
     min-width: 300px;
+    z-index: 999;
 
     ul {
         li {
@@ -139,8 +95,9 @@ header {
 
 @media (max-width : 1300px) {
     header {
-        position: fixed;
+        // position: fixed;
         width: 100%;
+        top: 0px;
 
         .container {
             nav {

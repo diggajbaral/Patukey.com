@@ -460,6 +460,10 @@
 @media (max-width : 1300px) {}
 
 @media (max-width : 991px) {
+    .NewArrive {
+display: none;
+    }
+
     .GridSection {
         .GridText {
             margin-top: 25px;
